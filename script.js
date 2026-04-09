@@ -1,8 +1,7 @@
 async function loadLeaderboard(){
 
- const res = await fetch(
- "https://raw.githubusercontent.com/Rusu-Eduard/knowledge-league/main/leaderboard.json"
- )
+ const res = await 
+fetch("https://rusu-eduard.github.io/knowledge-league/leaderboard.json")
 
  const data = await res.json()
 
